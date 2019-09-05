@@ -1,0 +1,17 @@
+{
+  "name": "rs232_communication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-byte-length": "^2.0.2",
+    "@serialport/parser-inter-byte-timeout": "^1.1.0",
+    "serialport": "^7.1.5"
+  }
+}
